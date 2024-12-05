@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    tools:context=".UbicacionesActivity">
+
+
+    <TextView
+        android:id="@+id/tituloUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloUbicacionText"
+        android:layout_alignParentTop="true"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+
+    <EditText
+        android:id="@+id/nombreUbicacionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloUbicacion"
+        android:hint="@string/hintUbicacion"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        />
+
+    <EditText
+        android:id="@+id/descripcionUbicacionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombreUbicacionEditText"
+        android:hint="@string/hintDescripcionUbicacion"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        />
+
+    <Button
+        android:id="@+id/ubicacionIngresoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descripcionUbicacionEditText"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        android:text="@string/ubicacionIngresoButtonText"
+        />
+    <Button
+        android:id="@+id/listaUbicacionesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ubicacionIngresoButton"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        android:text="@string/listaUbicacionesButtonText"
+        />
+</RelativeLayout>

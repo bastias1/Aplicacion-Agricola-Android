@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    tools:context=".ingresoSensoresActivity">
+
+    <TextView
+        android:id="@+id/tituloIngresoSensores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloIngresoSensoresText"
+        android:layout_alignParentTop="true"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+
+    <EditText
+        android:id="@+id/nombreSensorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloIngresoSensores"
+        android:hint="@string/hintNombre"
+        android:padding="16sp"
+        android:layout_margin="8sp"/>
+
+    <EditText
+        android:id="@+id/descripcionSensorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombreSensorEditText"
+        android:hint="@string/hintDescripcion"
+        android:padding="16sp"
+        android:layout_margin="8sp"/>
+
+    <EditText
+        android:id="@+id/idealSensorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descripcionSensorEditText"
+        android:hint="@string/hintIdeal"
+        android:padding="16sp"
+        android:layout_margin="8sp"/>
+
+
+    <TextView
+        android:id="@+id/tipoSensorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idealSensorEditText"
+        android:padding="8sp"
+        android:layout_marginHorizontal="8sp"
+        android:text="@string/tipoSensorText"
+        android:textSize="14sp"
+        />
+
+    <Spinner
+        android:id="@+id/tipoSensorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipoSensorTextView"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        android:entries="@array/tipos_sensor"
+        />
+
+    <TextView
+        android:id="@+id/ubicacionSensorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipoSensorSpinner"
+        android:padding="8sp"
+        android:layout_marginHorizontal="8sp"
+        android:text="@string/ubicacionSensorText"
+        android:textSize="14sp"
+        />
+
+    <Spinner
+        android:id="@+id/ubicacionSensorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ubicacionSensorTextView"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        android:entries="@array/ubicaciones"
+        />
+
+    <Button
+        android:id="@+id/sensoresIngresoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ubicacionSensorSpinner"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        android:text="@string/sensoresIngresoButtonText"
+        />
+    <Button
+        android:id="@+id/sensoresModificarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sensoresIngresoButton"
+        android:layout_alignParentLeft="true"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        android:text="@string/sensoresModificarButtonText"
+        />
+
+    <Button
+        android:id="@+id/sensoresEliminarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sensoresIngresoButton"
+        android:layout_alignParentEnd="true"
+        android:padding="16sp"
+        android:layout_margin="8sp"
+        android:text="@string/sensoresEliminarButtonText"
+        />
+
+</RelativeLayout>

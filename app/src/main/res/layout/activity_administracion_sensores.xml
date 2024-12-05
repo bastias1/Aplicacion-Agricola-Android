@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    tools:context=".AdministrarSensoresActivity">
+
+    <TextView
+        android:id="@+id/tituloAdministracionSensores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:padding="16sp"
+        android:text="@string/tituloAdministracionSensoresText"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/menuIngresarSensoresButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:padding="16sp"
+        android:layout_below="@id/tituloAdministracionSensores"
+        android:text="@string/IngresarButtonText" />
+
+    <Button
+        android:id="@+id/SensoresListaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:padding="16sp"
+        android:layout_below="@id/menuIngresarSensoresButton"
+        android:text="@string/SensoresListaButtonText" />
+
+    <Button
+        android:id="@+id/BuscarSensoresButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:padding="16sp"
+        android:layout_below="@id/SensoresListaButton"
+        android:text="@string/sensoresBuscarMenuButtonText" />
+
+
+
+</RelativeLayout>

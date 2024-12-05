@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">appAgricola</string>
+    <string name="msj_bienvenida">Bienvenid@ a App para gestion de sensores</string>
+    <string name="sensoresButtonText">Administrar Sensores</string>
+    <string name="tituloSensoresText">Gestion de Sensores</string>
+    <string name="ubicacionesButtonText">Gestionar Ubicaciones</string>
+    <string name="hintNombre">Nombre del Sensor</string>
+    <string name="hintDescripcion">Descripcion del Sensor</string>
+    <string name="tituloUbicacionText">Ubicaciones</string>
+    <string name="hintUbicacion">Nombre de la Ubicacion</string>
+    <string name="ubicacionIngresoButtonText">Ingresar Ubicacion</string>
+    <string name="sensoresIngresoButtonText">Ingresar el Sensor</string>
+    <string name="tipoSensorText">Seleccione el Tipo de Sensor</string>
+    <string name="ubicacionSensorText">Seleccione la ubicacion del Sensor</string>
+    <string name="listaUbicacionesButtonText">Listado de Ubicaciones</string>
+    <string name="tituloListaUbicacionesText">Lista de Ubicaciones</string>
+    <string name="tituloGestionSensoresText">Menu de Gestion de Sensores</string>
+    <string name="menuIngresarButtonText">Ingreso de Sensores</string>
+    <string name="IngresarButtonText">Ingreso de Sensores</string>
+    <string name="SupervisionSensoresButtonText">Busqueda, Eliminacion y Modificacion de sensores</string>
+    <string name="tituloSupervisionSensoresText">Administracion de los Sensores</string>
+    <string name="tituloIngresoSensoresText">Ingreso de Sensores</string>
+    <string name="tituloAdministracionSensoresText">Adminitracion de Sensores</string>
+    <string name="buscar">Buscar</string>
+    <string name="sensoresModificarButtonText">Modificar</string>
+    <string name="sensoresEliminarButtonText">Eliminar</string>
+    <string name="SensoresListaButtonText">Lista de Sensores</string>
+    <string name="tituloListaSensoresText">Lista de Sensores</string>
+    <string name="lecturasButtonText">Lecturas de los Sensores</string>
+    <string name="tituloLecturaSensoresText">Lectura de los Sensores</string>
+    <string name="hintDescripcionUbicacion">Descripcion de la Ubicacion</string>
+    <string name="hintIdeal">Ideal</string>
+    <string name="sensoresBuscarButtonText">Buscar</string>
+    <string name="tituloBusquedaSensoresText">Busqueda de Sensores</string>
+    <string name="hintBuscarNombreSensor">Nombre</string>
+    <string name="sensoresBuscarMenuButtonText">Buscar Sensores</string>
+</resources>
